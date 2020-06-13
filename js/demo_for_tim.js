@@ -12,7 +12,8 @@ var playlist = WaveformPlaylist.init({
     width: 200 //width of controls in pixels
   },
   zoomLevels: [500, 1000, 3000, 5000],
-  exclSolo: true
+  exclSolo: true,
+  isAutomaticScroll: false
 });
 
 playlist.load([
